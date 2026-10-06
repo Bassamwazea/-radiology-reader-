@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قارئ الأشعة الذكي - Radiology Reader AI</title>
+    <!-- استخدام Tailwind CSS للتصميم السريع والمرن -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Cairo', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100">
+
+    <!-- رأس الصفحة / الهيدر -->
+    <header class="bg-slate-800/80 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-slate-700">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-blue-400 flex items-center gap-2">
+                <span>🩻</span> قارئ الأشعة الذكي
+            </h1>
+            <a href="#download" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-500 transition shadow-lg shadow-blue-500/20">تحميل التطبيق</a>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي (Hero) -->
+    <section class="bg-gradient-to-b from-slate-800 to-slate-900 py-20 px-4 text-center border-b border-slate-800">
+        <div class="max-w-3xl mx-auto">
+            <span class="inline-block bg-blue-500/10 text-blue-400 border border-blue-500/20 text-xs font-bold px-3 py-1 rounded-full mb-4">مدعوم بالذكاء الاصطناعي الطبي</span>
+            <h2 class="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">تحليل وتشخيص صور الأشعة بدقة متناهية وسرعة فائقة</h2>
+            <p class="text-lg text-slate-300 mb-8">تطبيقك المتطور لقراءة الأشعة السينية والمقطعية وتقديم تقارير أولية مدعومة بأحدث تقنيات الذكاء الاصطناعي لمساعدة الأطباء والمختصين.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#download" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-8 py-3.5 rounded-xl shadow-lg shadow-blue-600/30 transition flex items-center justify-center gap-2">
+                    <span>📥</span> تحميل التطبيق (APK)
+                </a>
+                <a href="#features" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-bold px-8 py-3.5 rounded-xl transition">استكشف المميزات</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المميزات والخصائص -->
+    <section id="features" class="py-20 px-4 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h3 class="text-2xl md:text-3xl font-bold text-white mb-3">مميزات تطبيق Radiology Reader AI</h3>
+            <p class="text-slate-400">صُمم خصيصاً لتوفير أدوات تشخيصية ذكية وسريعة بين يديك</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 hover:border-blue-500/50 transition">
+                <div class="w-12 h-12 bg-blue-500/10 text-blue-400 rounded-xl flex items-center justify-center mb-4 text-2xl">⚡</div>
+                <h4 class="font-bold text-xl mb-2 text-white">تحليل فوري</h4>
+                <p class="text-slate-400 text-sm leading-relaxed">قراءة صور الأشعة وتقديم ملاحظات تحليلية أولية بدقة عالية في ثوانٍ معدودة.</p>
+            </div>
+            <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 hover:border-blue-500/50 transition">
+                <div class="w-12 h-12 bg-blue-500/10 text-blue-400 rounded-xl flex items-center justify-center mb-4 text-2xl">🎯</div>
+                <h4 class="font-bold text-xl mb-2 text-white">دقة وموثوقية</h4>
+                <p class="text-slate-400 text-sm leading-relaxed">خوارزميات ذكاء اصطناعي مدربة لمسح وتحديد المؤشرات الحيوية والتغيرات المرضية في الصور.</p>
+            </div>
+            <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 hover:border-blue-500/50 transition">
+                <div class="w-12 h-12 bg-blue-500/10 text-blue-400 rounded-xl flex items-center justify-center mb-4 text-2xl">🔒</div>
+                <h4 class="font-bold text-xl mb-2 text-white">خصوصية البيانات</h4>
+                <p class="text-slate-400 text-sm leading-relaxed">معالجة آمنة تضمن سرية بيانات الحالات المرضية وصور الأشعة الخاصة بك.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التحميل -->
+    <section id="download" class="bg-slate-800/30 py-20 px-4 border-t border-slate-800 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h3 class="text-2xl md:text-3xl font-bold mb-4 text-white">ابدأ تجربة قارئ الأشعة الذكي الآن</h3>
+            <p class="text-slate-400 mb-8">احصل على نسختك من التطبيق وجرب الميزات التشخيصية المتطورة مباشرة على جهازك الأندرويد.</p>
+            <div class="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-500 text-white font-bold px-8 py-4 rounded-xl shadow-xl shadow-blue-600/20 transition cursor-pointer">
+                <span>📱</span>
+                <span>تحميل ملف التثبيت (com.ai.medray)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer class="bg-slate-950 text-slate-500 py-8 text-center text-sm border-t border-slate-900">
+        <p>جميع الحقوق محفوظة © 2026 - قارئ الأشعة الذكي (Radiology Reader AI)</p>
+    </footer>
+
+</body>
+</html>
